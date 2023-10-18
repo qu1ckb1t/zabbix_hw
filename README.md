@@ -73,7 +73,6 @@ git status
 git add .
 git commit -m "Добавил результат выполнения задания 1"
 git push
-history | grep git
 git status
 git add .
 git commit -m "Добавление решения для задания 2"
