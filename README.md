@@ -62,10 +62,23 @@ sudo systemctl enable zabbix-server.service zabbix-agent apache2
 
 ```
 Для работы с GitHub использовались команды:
-....
-....
-....
-....
+
+git clone git@github.com:qu1ckb1t/zabbix_hw.git
+git status
+nano .git/.gitignore
+git add README.md 
+git commit -m "First commit"
+git push origin
+git status
+git add .
+git commit -m "Добавил результат выполнения задания 1"
+git push
+history | grep git
+git status
+git add .
+git commit -m "Добавление решения для задания 2"
+git push origin
+
 ```
 
 `Скриншоты к заданию 2
